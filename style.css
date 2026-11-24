@@ -1,0 +1,91 @@
+/* BASE */
+html {
+  font-size: 112.5%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0 1.25rem;
+  font-family: system-ui, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  line-height: 1.8;
+  color: #333;
+  background: #fff;
+}
+
+header,
+main {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  padding: 4rem 0 2rem;
+  border-bottom: 3px solid #333;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+/* MAIN */
+section {
+  padding: 2.5rem 0;
+}
+
+section + section {
+  border-top: 1px solid #ddd;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: #b4462a;
+  text-wrap: balance;
+}
+
+section p,
+section ul {
+  margin: 1rem 0 0;
+}
+
+section p {
+  text-wrap: pretty;
+}
+
+section ul {
+  padding-left: 1.25rem;
+}
+
+/* MOBILE */
+@media (max-width: 37.5em) {
+  html {
+    font-size: 106.25%;
+  }
+
+  header {
+    padding-top: 2.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.375rem;
+  }
+
+  section {
+    padding: 2rem 0;
+  }
+}
